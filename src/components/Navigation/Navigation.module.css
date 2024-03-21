@@ -1,0 +1,41 @@
+.navigate {
+    background-color: blue;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 10px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.categoriesbtn {
+    padding: 8px 15px 8px 15px;
+    color: black;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s;
+}
+
+.categoriesbtn:hover {
+    transform: scale(1.01);
+}

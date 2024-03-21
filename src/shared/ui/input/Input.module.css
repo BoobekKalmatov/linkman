@@ -1,0 +1,22 @@
+
+.input {
+    position: relative;
+}
+
+.searhinput {
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1.3px solid #ffffff;
+    /* background: none; */
+    margin-left: 10px;
+    padding-right: 40px;
+}
+    
+.searhicon {
+    position: absolute;
+    top: 6px;
+    left: 380px;
+    width: 25px;
+}

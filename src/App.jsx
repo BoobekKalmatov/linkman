@@ -1,15 +1,17 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom'
-import Navigation from './components/Navigation/Navigation';
+import Layout from './components/Layout';
+import Modal from './shared/ui/modal/Modal';
+
+
 function App() {
   return (
     <div className="App">
-
+      <Layout>
         <Routes>
-
-          <Route path='/' element={<Navigation/>}/>
-
+          
         </Routes>
+      </Layout>
 
     </div>
   );
