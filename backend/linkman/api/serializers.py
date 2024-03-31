@@ -6,3 +6,7 @@ class CustomUserSerializer(serializers.ModelSerializer):
         model = CustomUser
         fields = ('phone_number', 'password')
         extra_kwargs = {'password': {'write_only': True}}
+
+
+        
+#jofjksmldffsdlfnk
