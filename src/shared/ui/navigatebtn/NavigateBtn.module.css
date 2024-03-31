@@ -1,0 +1,12 @@
+.button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+
+
+.buttonicon {
+    width: 40px;
+}

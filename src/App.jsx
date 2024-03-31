@@ -1,10 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import { Route, Routes } from 'react-router-dom'
+import Layout from './components/Layout';
+import Modal from './shared/ui/modal/Modal';
+
 
 function App() {
   return (
     <div className="App">
-      hello react
+      <Layout>
+        <Routes>
+          
+        </Routes>
+      </Layout>
+
     </div>
   );
 }

@@ -1,0 +1,68 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalcontainer {
+  position: fixed;
+  background-color: blue;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.modalblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.modalinput {
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: #fff;
+    border-radius: 10px;
+    outline: none;
+}
+
+.modalbtn {
+    text-align: center;
+    background-color: #fff;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;  
+    cursor: pointer;  
+    transition: 0.2s;
+    margin-bottom: 20px;
+}
+
+.modalbtn:hover {
+    transform: scale(1.01);
+}
+
+.modaltitle {
+    text-align: center;
+    font-weight: 300;
+    color: #fff;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.toregister {
+    font-weight: 300;
+    color: #fff;
+    font-style: normal;
+}
